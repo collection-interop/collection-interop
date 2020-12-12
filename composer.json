@@ -12,5 +12,13 @@
             "email": "nbish11@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Interop\\Collection\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "Interop\\Collection\\": "tests/"
+    }
 }
