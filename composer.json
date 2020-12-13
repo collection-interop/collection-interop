@@ -20,5 +20,8 @@
     },
     "autoload-dev": {
         "Interop\\Collection\\": "tests/"
+    },
+    "scripts": {
+        "test": "phpunit"
     }
 }
